@@ -136,7 +136,7 @@ Dimensions:
 │   └── patients.csv
 │   └── treatments.csv
 │
-├── 📁 images
+├── 📁 image
 │   └── image-1.png
 │
 ├── 📁 pbix
