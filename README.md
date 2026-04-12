@@ -47,7 +47,9 @@ Note:
 EBITDA and Valuation were estimated based on assumed operating expenses, as the dataset does not provide this information.
 
 Physicians → 30% of revenue
+
 Infrastructure → 20% of revenue
+
 Administrative → 10% of revenue
 
 Total: 60% of revenue as expenses
