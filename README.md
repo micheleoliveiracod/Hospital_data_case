@@ -152,7 +152,7 @@ Dimensions:
 
 ## 🖼️ Dashboard Preview
 
-([image-1.png](https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image-1.png)
+[image-1.png](https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image-1.png)
 
 ---
 
