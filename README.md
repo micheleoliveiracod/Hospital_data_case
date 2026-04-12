@@ -128,6 +128,7 @@ Dimensions:
 
 ## 📂 Repository Structure
 
+````
 ├── 📁 data
 │   └── appointments.csv
 │   └── billing.csv
@@ -142,6 +143,7 @@ Dimensions:
 │   └── dashboard_documentation.png
 │
 └── README.md
+````
 
 ---
 
@@ -154,8 +156,11 @@ Dimensions:
 ## 🚀 How to Run the Project
 
 Download the .pbix file
+
 Open it in Power BI Desktop
+
 Refresh the data connections
+
 Explore the dashboards
 
 ---
