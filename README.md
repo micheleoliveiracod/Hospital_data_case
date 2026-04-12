@@ -154,7 +154,7 @@ Dimensions:
 
 ## 🖼️ Dashboard Preview
 
-<img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image-1.png" alt="Texto alternativo" width="700">
+<img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image.png" alt="Texto alternativo" width="700">
 
 ---
 
