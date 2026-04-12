@@ -136,6 +136,9 @@ Dimensions:
 │   └── patients.csv
 │   └── treatments.csv
 │
+├── 📁 images
+│   └── image-1.png
+│
 ├── 📁 pbix
 │   └── Hospital_data_case.pbix
 │
