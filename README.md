@@ -110,12 +110,11 @@ Dimensions:
 
 ## 📈 Key Insights
 
-  * Issues in the pricing strategy for medical procedures
-  * Budgetary problems: the business is not self-sustaining and does not generate value
-  * Financial process issues related to billing and collections, possibly linked to business rules
-  * High rates of scheduled appointments and no-shows, indicating operational inefficiencies in scheduling management
-  * Peaks in appointments during April and November, indicating seasonality in the analyzed period
-
+* Problems in the pricing method for procedures.
+* Budgetary problems: the business is not self-sustaining and does not generate value.
+* Problems in financial processes related to billing and variance, possibly linked to business rules.
+* Significant amounts of canceled appointments and lack of comparison in service, reducing operational inefficiency in scheduling management.
+* Peaks in appointments in April and November, possible drop due to seasonality.
 ---
 
 ## 🛠️ Tools Used
