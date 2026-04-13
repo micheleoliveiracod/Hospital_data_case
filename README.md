@@ -110,11 +110,11 @@ Dimensions:
 
 ## 📈 Key Insights
 
-* Problems in the pricing method for procedures.
-* Budgetary problems: the business is not self-sustaining and does not generate value.
-* Problems in financial processes related to billing and variance, possibly linked to business rules.
-* Significant amounts of canceled appointments and lack of comparison in service, reducing operational inefficiency in scheduling management.
-* Peaks in appointments in April and November, possible drop due to seasonality.
+* Current situation: the business is not self-sustaining and does not generate value.
+* Investigate the pricing method for procedures.
+* Investigate the financial processes related to billing, possibly based on business rules.
+* Investigate a significant number of canceled appointments and missed appointments, indicating operational inefficiency in appointment management.
+* Peaks in appointments in April and November, with a possible drop due to seasonality.
 ---
 
 ## 🛠️ Tools Used
