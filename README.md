@@ -1,13 +1,12 @@
 # 🏥 Hospital Analytics Dashboard | Power BI
 
 ## 📌 Overview
-
 This project aims to analyze hospital data from both a strategic (financial) and operational (clinical) perspective, using Power BI to generate insights that support data-driven decision-making.
 
 The dashboard was developed based on a public dataset available on Kaggle, simulating a real-world hospital management environment.
 Link: https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset?resource=download
-
----
+<br/>
+<br/>
 
 ## 🎯 Project Objectives
 
@@ -16,8 +15,8 @@ Identify key issues related to costs and revenue
 Detect patterns of payment default
 Evaluate operational efficiency in scheduling and service execution
 Support data-driven decision-making
-
----
+<br/>
+<br/>
 
 ## 📊 Dashboard Structure
 
@@ -88,25 +87,23 @@ Key metrics:
 * Identify operational bottlenecks
 * Detect seasonality in appointments
 * Evaluate cancellation rates
-
 ---
+<br/>
 
 ## 🧱 Data Modeling
 
 **Star Schema**
 
 Fact Table:
-
   * Appointments
 
 Dimensions:
-
   * Patients
   * Doctors
   * Treatments
   * Billing
-
----
+<br/>
+<br/>
 
 ## 📈 Key Insights
 
@@ -115,7 +112,8 @@ Dimensions:
 * Investigate the financial processes related to billing, possibly based on business rules.
 * Investigate a significant number of canceled appointments and no-show appointments, indicating operational inefficiency in appointment management.
 * Peaks in appointments in April and November, with a possible drop due to seasonality.
----
+<br/>
+<br/>
 
 ## 🛠️ Tools Used
 
@@ -124,8 +122,8 @@ Dimensions:
   * Dimensional Modeling
   * Power Query (ELT)
   * Figma
-
----
+<br/>
+<br/>
 
 ## 📂 Repository Structure
 
@@ -148,14 +146,14 @@ Dimensions:
 │
 └── README.md
 ````
-
----
+<br/>
+<br/>
 
 ## 🖼️ Dashboard Preview
 
 <img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image.png" alt="Texto alternativo" width="700">
-
----
+<br/>
+<br/>
 
 ## 🚀 How to Run the Project
 
@@ -166,8 +164,8 @@ Open it in Power BI Desktop
 Refresh the data connections
 
 Explore the dashboards
-
----
+<br/>
+<br/>
 
 ## 📄 License
 
