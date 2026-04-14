@@ -6,7 +6,7 @@ This project aims to analyze hospital data from both a strategic (financial) and
 The dashboard was developed based on a public dataset available on Kaggle, simulating a real-world hospital management environment.
 Link: https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset?resource=download
 <br/>
-<br/>
+---
 
 ## 🎯 Project Objectives
 
@@ -16,7 +16,7 @@ Detect patterns of payment default
 Evaluate operational efficiency in scheduling and service execution
 Support data-driven decision-making
 <br/>
-<br/>
+---
 
 ## 📊 Dashboard Structure
 
@@ -87,8 +87,8 @@ Key metrics:
 * Identify operational bottlenecks
 * Detect seasonality in appointments
 * Evaluate cancellation rates
----
 <br/>
+---
 
 ## 🧱 Data Modeling
 
@@ -103,7 +103,7 @@ Dimensions:
   * Treatments
   * Billing
 <br/>
-<br/>
+---
 
 ## 📈 Key Insights
 
@@ -113,7 +113,7 @@ Dimensions:
 * Investigate a significant number of canceled appointments and no-show appointments, indicating operational inefficiency in appointment management.
 * Peaks in appointments in April and November, with a possible drop due to seasonality.
 <br/>
-<br/>
+---
 
 ## 🛠️ Tools Used
 
@@ -123,7 +123,7 @@ Dimensions:
   * Power Query (ELT)
   * Figma
 <br/>
-<br/>
+---
 
 ## 📂 Repository Structure
 
@@ -147,7 +147,7 @@ Dimensions:
 └── README.md
 ````
 <br/>
-<br/>
+---
 
 ## 🖼️ Dashboard Preview
 
@@ -165,7 +165,7 @@ Refresh the data connections
 
 Explore the dashboards
 <br/>
-<br/>
+---
 
 ## 📄 License
 
