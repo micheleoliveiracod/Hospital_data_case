@@ -134,15 +134,17 @@ Dimensions:
 │   └── doctors.csv
 │   └── patients.csv
 │   └── treatments.csv
-│
+│   └── 📁 Join
+│       └── script_join.r
+│       └── unified_table_modified.csv
 ├── 📁 image
-│   └── image-1.png
+│   └── image2.png
 │
 ├── 📁 pbix
 │   └── Hospital_data_case.pbix
 │
 ├── 📁 documentation
-│   └── dashboard_documentation.png
+│   └── dashboard_documentation.pdf
 │
 └── README.md
 ````
