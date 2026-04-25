@@ -19,11 +19,11 @@ dbListTables(conexao)
 
 dbDisconnect(conexao)
 
-#Query no SQL
+# Join no SQLite
 
 SELECT *
-  FROM treatments
-FULL JOIN appointments 
+FROM treatments
+FULL JOIN appointments
 ON treatments.appointment_id = appointments.appointment_id
 
 #JOIN no R
