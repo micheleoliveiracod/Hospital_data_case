@@ -69,8 +69,12 @@ Operating Expenses = [Total Revenue] * 0.6
 
 **Analyses:**
 
-* Identify patterns in failed and pending payments by payment method
-* Identify patterns in failed and pending payments by procedure
+* Identify patterns in failed and pending payments by payment method.
+* Identify patterns in failed and pending payments by procedure.
+* Why do we have a high number of pending and failed payments in insurance payment methods?
+* Is this result related to the hospital's business rules or conventions? What can you do to improve this indicator?
+* Why do we have a high number of pending and failed payments with the cash payment method?
+* Is credit analysis being done at the time of treatment scheduling? What are the business rules for this payment method?
 
 ---
 
