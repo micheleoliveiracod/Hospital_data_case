@@ -6,7 +6,7 @@ This project aims to analyze hospital data from both a strategic (financial) and
 The dashboard was developed based on a public dataset available on Kaggle, simulating a real-world hospital management environment.
 Link: https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset?resource=download
 
-<br/>
+---
 
 ## 🎯 Project Objectives
 
@@ -16,13 +16,13 @@ Detect patterns of payment default
 Evaluate operational efficiency in scheduling and service execution
 Support data-driven decision-making
 
-<br/>
+---
 
 ## 📊 Dashboard Structure
 
 ### 1. Strategic View
 
-**Key metrics:** 
+**Metrics and indicators:** 
 
 * Total Revenue
 * Total Cost
@@ -35,7 +35,7 @@ Support data-driven decision-making
 * Percentage of payments by status
 * Time series of payments by year and month
 
-**Key analyses:** 
+**Analyses:** 
 
 * Assess overall financial performance
 * Identify potential pricing issues in medical procedures
@@ -59,7 +59,7 @@ Operating Expenses = [Total Revenue] * 0.6
 
 ### 2. Tactical View
 
-Key metrics:
+**Metrics and indicators:**
 
 * Payment Paid ($)
 * Payment Failed ($)
@@ -67,7 +67,7 @@ Key metrics:
 * Paid, pending, and failed amounts by payment method
 * Paid, pending, and failed amounts by treatment type
 
-**Key analyses:**
+**Analyses:**
 
 * Identify patterns in failed and pending payments by payment method
 * Identify patterns in failed and pending payments by procedure
@@ -76,19 +76,25 @@ Key metrics:
 
 ### 3. Operational View
 
-**Key metrics:**
+**Metrics and indicators:**
 
+* Days of waiting 
+* Completed
+* Cancelled
+* No-show
+* Scheduled
 * Number of appointments over time
 * Number of appointments by month and year
 * Number of appointments by status
+* Waiting time by type of treatment
 
-**Key analyses:**
+**Analyses:**
 
 * Identify operational bottlenecks
 * Detect seasonality in appointments
 * Evaluate cancellation rates
 
-<br/>
+---
 
 ## 🧱 Data Modeling
 
@@ -103,9 +109,9 @@ Dimensions:
   * Treatments
   * Billing
 
-<br/>
+---
 
-## 📈 Key Insights
+## 📈 Insights
 
 * Current situation: the business is not self-sustaining and does not generate value.
 * Investigate the pricing method for procedures.
@@ -113,7 +119,7 @@ Dimensions:
 * Investigate a significant number of canceled appointments and no-show appointments, indicating operational inefficiency in appointment management.
 * Peaks in appointments in April and November, with a possible drop due to seasonality.
 
-<br/>
+---
 
 ## 🛠️ Tools Used
 
@@ -123,7 +129,7 @@ Dimensions:
   * Power Query (ELT)
   * Figma
 
-<br/>
+---
 
 ## 📂 Repository Structure
 
@@ -137,7 +143,8 @@ Dimensions:
 │   └── 📁 Join
 │       └── script_join.r
 │       └── unified_table_modified.csv
-├── 📁 image
+│
+├── 📁 images
 │   └── image2.png
 │
 ├── 📁 pbix
@@ -149,13 +156,13 @@ Dimensions:
 └── README.md
 ````
 
-<br/>
+---
 
 ## 🖼️ Dashboard Preview
 
 <img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image2.png" alt="Texto alternativo" width="700">
 
-<br/>
+---
 
 ## 🚀 How to Run the Project
 
@@ -167,7 +174,7 @@ Refresh the data connections
 
 Explore the dashboards
 
-<br/>
+---
 
 ## 📄 License
 
