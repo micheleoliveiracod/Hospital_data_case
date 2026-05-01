@@ -865,7 +865,8 @@ Hospital_data_case/
 │       ├── script_join.R      # Script R para join
 │       └── unified_table_modified.csv  # Tabela unificada
 ├── documentation/
-│   └── dashboard_documentation.md  # Este documento
+│   ├── dashboard_documentation_PT.md  # Versão em português
+│   └── dashboard_documentation_EN.md  # Versão em inglês
 ├── images/
 │   └── image2.png             # Preview do dashboard
 ├── pbix/
