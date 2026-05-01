@@ -204,15 +204,13 @@ FROM treatments
 FULL JOIN appointments ON treatments.appointment_id = appointments.appointment_id
 ```
 
-#### Etapa 2 — Transformação (Transform) no Power Query
+#### Etapa 2 — Transformação no Power Query
 
 Após a importação dos CSVs no Power BI, as seguintes transformações foram aplicadas via Power Query (M Language):
 
 | Transformação | Tabela | Descrição |
 |---|---|---|
 | Definição de tipos de dados | Todas | Datas como `Date`, valores como `Decimal Number`, IDs como `Text` |
-| Remoção de colunas desnecessárias | Patients, Doctors | Remoção de campos de contato não utilizados nas análises |
-| Criação de coluna de nome completo | Patients, Doctors | Concatenação de `first_name` + `last_name` |
 | Padronização de valores categóricos | Appointments, Billing | Verificação de consistência nos campos `status` e `payment_status` |
 | Relacionamento entre tabelas | Todas | Definição das chaves primárias e estrangeiras no modelo |
 
@@ -281,7 +279,6 @@ As tabelas foram carregadas no modelo do Power BI seguindo o esquema estrela (St
 
 - A relação entre `Billing` e `Appointments` é indireta, passando por `Treatments`. Isso significa que para cruzar dados financeiros com dados de agendamento, o caminho percorre: `Billing → Treatments → Appointments`.
 - O campo `amount` em `Billing` e o campo `cost` em `Treatments` possuem os mesmos valores no dataset, indicando que o custo do tratamento é diretamente repassado ao paciente como valor de cobrança — sem markup explícito no dataset.
-- Não existe uma tabela de calendário (Date Table) explícita no dataset. Recomenda-se criar uma `DimCalendario` no Power BI para análises temporais mais robustas.
 
 ---
 
@@ -476,7 +473,6 @@ Para exportar os dados de qualquer visual:
 2. Selecione **Exportar dados**.
 3. Escolha o formato: `.xlsx` (Excel) ou `.csv`.
 
-
 ---
 
 ## 8. Memorial de Cálculo (DAX)
@@ -492,7 +488,7 @@ Esta seção documenta todas as medidas DAX criadas no modelo, com sua fórmula,
 Receita Total = SUM(billing[amount])
 ```
 **Descrição:** Soma de todos os valores cobrados na tabela de faturamento, independentemente do status de pagamento. Representa o total faturado (não necessariamente recebido).  
-**Tabela de origem:** `billing`  
+**Tabela de origem:** `billing`
 **Campo:** `amount`
 
 ---
