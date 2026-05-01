@@ -43,7 +43,7 @@ Focus: Scheduling efficiency, cancellation rates, seasonality, and operational b
 
 ## 🖼️ Dashboard Preview
 
-<img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image2.png" alt="Hospital Analytics Dashboard Preview" width="700">
+<img src="https://github.com/micheleoliveiracod/Hospital_data_case/blob/main/images/image.png" alt="Hospital Analytics Dashboard Preview" width="700">
 
 ---
 
