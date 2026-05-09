@@ -918,3 +918,5 @@ Hospital_data_case/
 ---
 
 *Documentation created for professional portfolio purposes. The data used is simulated and publicly available.*
+
+*The planning and structure of this documentation were conceived and designed by me (Michele), and the writing was done with the support of the Kiro IDE using Claude Haiku 4.5.*
