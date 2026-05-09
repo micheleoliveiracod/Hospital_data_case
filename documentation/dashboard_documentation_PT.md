@@ -917,3 +917,5 @@ Hospital_data_case/
 ---
 
 *Documentação elaborada para fins de portfólio profissional. Os dados utilizados são simulados e de domínio público.*
+
+*O planejamento da estrutura desta documentação foi pensado e arquitetado por mim (Michele), e a execução da esrita foi com o apoio da IDE Kiro utilizando o Claude Haiku 4.5.*
