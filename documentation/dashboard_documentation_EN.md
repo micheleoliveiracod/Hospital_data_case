@@ -181,6 +181,8 @@ The dataset simulates a real hospital management environment with 200 records pe
 
 The five CSV files were extracted from Kaggle and stored locally in the `/data` folder. A join between the `appointments` and `treatments` tables was performed in R beforehand, generating the `unified_table_modified.csv` file in the `/data/Join` folder.
 
+With the aid of AI, the execution dates of the procedures were altered to allow for the calculation of execution times. No set of original scheduling data is the same as the actual execution data, making it impossible to simulate calculations that accurately reflect real-world business conditions. Therefore, due to this data transformation, the operational visualization allowed for observation of the overall waiting time and the waiting time per procedure for patients to receive their appointments.
+
 **R script used (`script_join.R`):**
 
 ```r
