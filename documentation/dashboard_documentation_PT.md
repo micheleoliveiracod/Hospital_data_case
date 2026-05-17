@@ -181,6 +181,8 @@ O dataset simula um ambiente hospitalar real com 200 registros por tabela, cobri
 
 Os cinco arquivos CSV foram extraídos do Kaggle e armazenados localmente na pasta `/data`. Um join entre as tabelas `appointments` e `treatments` foi realizado previamente em R, gerando o arquivo `unified_table_modified.csv` na pasta `/data/Join`.
 
+Foi realizado com o auxilio de IA, a alteração das datas de execução dos procedimentos para ser possível fazer o cálculo de tempos de execução. No dataset original a data de agendamento é a mesma da execução, impossibilitando uma simulação de cálculo semelhante a realidade de um negócio. Então, por conta desta transformação dos dados, na views operacional foi possível observar o tempo geral e por procedimento, em que o paciente espera para realização dos atendimentos.
+
 **Script R utilizado (`script_join.R`):**
 
 ```r
